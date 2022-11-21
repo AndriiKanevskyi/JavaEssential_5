@@ -13,8 +13,7 @@ public class Main {
 
         for (int i = 0; iterator.hasNext();iterator.next(), i++) {
            int temp= (int) list.get(i);
-           temp++;
-            list.set(i,temp);
+            list.set(i,++temp);
         }
         System.out.println(list);
 
