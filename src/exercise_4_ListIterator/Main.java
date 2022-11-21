@@ -16,7 +16,5 @@ public class Main {
             list.set(i,++temp);
         }
         System.out.println(list);
-
-
     }
 }
