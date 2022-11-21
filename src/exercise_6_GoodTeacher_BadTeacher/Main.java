@@ -20,12 +20,15 @@ public class Main {
         teachersList.add("Ольга Сергіївна");
         teachersList.add("Людмила Іванівна");
 
-        Collections.sort(teachersList);// Сортування для моживості бінарного пошуку
+        // Сортування для моживості бінарного пошуку
+        Collections.sort(teachersList);
 
-
-        String [] array = new String[teachersList.size()];// Переведення в звичайний массив для моживості бінарного пошуку
+        // Переведення в звичайний массив для моживості бінарного пошуку
+        String [] array = new String[teachersList.size()];
         teachersList.toArray(array);
-        // String [] array = teachersList.toArray(new String[teachersList.size()]);// Коротша форма запису
+
+        // Коротша форма запису
+        // String [] array = teachersList.toArray(new String[teachersList.size()]);
 
         System.out.println("\nВсі вчителі: "+teachersList);
         System.out.println("Кращий вчитель знахоиться під індексом : "+Arrays.binarySearch(array,"Лариса Михалівна"));
