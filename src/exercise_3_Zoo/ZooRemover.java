@@ -27,7 +27,7 @@ public class ZooRemover {
         System.out.println("Довиженна оригінального массиву до скорочення "+Zoo.zooList.size());
          temp = new ArrayList (Zoo.zooList.subList(0,Zoo.zooList.size()-7));
         System.out.println("Довиженна массиву після скорочення на 7: "+temp.size());
-        //Також все це можна зробити через звичайний цикл For, видаляючі останні елементи
+        //Також все це можна зробити через ітератор
 
 
     }
